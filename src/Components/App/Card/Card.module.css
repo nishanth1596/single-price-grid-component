@@ -1,0 +1,181 @@
+:root {
+  --c-white: #fff;
+  --c-2ab3b1: #2ab3b1;
+  --c-c0df33: #c0df33;
+  --c-9aa7be: #9aa7be;
+  --c-e6eff5: #e6eff5;
+  --c-0051ab: #0051ab;
+
+  --ff-karla-default: "Karla", serif;
+}
+
+.article {
+  max-width: 19.44rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  box-shadow: 0 0.93rem 1.88rem 0 hsla(212, 100%, 34%, 0.1488);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.heading {
+  background-color: var(--c-white);
+  padding: 1.75rem 1.5rem 0 1.5rem;
+  font-weight: 700;
+}
+
+.heading h1 {
+  /* margin:1.75rem 1.5rem 0 1.5rem ; */
+  font-size: 1.25rem;
+  line-height: 1.44rem;
+  letter-spacing: -0.25px;
+  color: var(--c-2ab3b1);
+}
+
+.paraPrimary {
+  margin-top: 1.5rem;
+  font-size: 0.94rem;
+  line-height: 1.25rem;
+  letter-spacing: -0.19px;
+  color: var(--c-c0df33);
+}
+
+.paraSecondary {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+
+  font-size: 0.88rem;
+  line-height: 1.63rem;
+  letter-spacing: -0.17px;
+  color: var(--c-9aa7be);
+}
+
+/* .paraSpan {
+  display: block;
+} */
+
+.subscription {
+  background-color: var(--c-2ab3b1);
+  padding: 1.5rem;
+  color: var(--c-white);
+}
+
+.subscription h2 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.32rem;
+  letter-spacing: -0.22px;
+}
+
+.subscriptionParaPrimary {
+  margin-top: 1.125rem;
+  display: flex;
+  align-items: center;
+  gap: 0.69rem;
+
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 2.32rem;
+  letter-spacing: -0.4px;
+}
+
+.subscriptionParaPrimary span {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.63rem;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+
+.subscriptionParaSecondary {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  letter-spacing: -0.2px;
+  margin-top: 0.25rem;
+}
+
+.subscription button {
+  background-color: var(--c-c0df33);
+  color: var(--c-white);
+  border: none;
+  border-radius: 0.32rem;
+  padding: 0.88rem 6.38rem;
+  margin-top: 2.56rem;
+
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.19rem;
+  letter-spacing: -0.2px;
+
+  box-shadow: 0 0.625rem 0.625rem 0 hsla(0, 0%, 0%, 0.0973);
+}
+
+.whyUs {
+  /* opacity: 0.1519; */
+  background-color: hsla(179, 62%, 43%, 0.85);
+  padding: 1.5rem;
+  color: var(--c-white);
+}
+
+.whyUs h3 {
+  font-weight: 700;
+  font-size: 1.125rem;
+  line-height: 1.31rem;
+  letter-spacing: -0.22px;
+  margin-bottom: 1.125rem;
+}
+
+.whyUs p {
+  font-weight: 400;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  opacity: 0.75;
+  letter-spacing: -0.17px;
+}
+
+@media (min-width: 41rem) {
+  .article {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 216fr 259fr;
+    max-width: 39.69rem;
+  }
+
+  .heading {
+    grid-area: 1/1/2/3;
+    padding: 2.5rem 2.5rem 0 2.5rem;
+  }
+
+  .heading h1 {
+    font-size: 1.5rem;
+    letter-spacing: -0.3px;
+    line-height: 1.75rem;
+  }
+
+  .paraPrimary {
+    font-size: 1.125rem;
+    line-height: 1.31rem;
+    letter-spacing: -0.22px;
+  }
+
+  .paraSecondary {
+    margin-top: 0.69rem;
+    margin-bottom: 2.5rem;
+    font-weight: 400;
+    font-size: 1rem;
+    letter-spacing: -0.2px;
+  }
+
+  .subscription {
+    padding: 2.5rem;
+  }
+
+  .subscription button {
+    padding: 0.94rem 5.56rem;
+    margin-top: 1.625rem;
+  }
+
+  .whyUs {
+    padding: 2.5rem;
+  }
+}
