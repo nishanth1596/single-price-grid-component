@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Solution URL](https://github.com/nishanth1596/single-price-grid-component)
-- Live Site URL: [Live site URL]()
+- Live Site URL: [Live site URL](https://nishanth-single-price-grid-component.netlify.app/)
 
 ### Features
 
